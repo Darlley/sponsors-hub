@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2208500d3492592111d4f199c82f722",
+    "content-hash": "963b967c098ad6c3603c3588b17a9628",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1658,6 +1658,46 @@
                 }
             ],
             "time": "2021-11-21T11:48:40+00:00"
+        },
+        {
+            "name": "minicli/curly",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/minicli/curly.git",
+                "reference": "50c0e8813adf66f298b862a5150c0acc00f3f18e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/minicli/curly/zipball/50c0e8813adf66f298b862a5150c0acc00f3f18e",
+                "reference": "50c0e8813adf66f298b862a5150c0acc00f3f18e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minicli\\Curly\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple Curl Client",
+            "homepage": "https://github.com/erikaheidi/minicli",
+            "keywords": [
+                "api",
+                "curl",
+                "wrapper"
+            ],
+            "support": {
+                "issues": "https://github.com/minicli/curly/issues",
+                "source": "https://github.com/minicli/curly/tree/master"
+            },
+            "time": "2020-02-24T10:33:43+00:00"
         },
         {
             "name": "monolog/monolog",
